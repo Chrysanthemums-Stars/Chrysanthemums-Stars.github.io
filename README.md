@@ -1,2 +1,2 @@
-# chrysanthemums-stars.github.io
+# Chrysanthemums-Stars.github.io
 My personal portfolio.
