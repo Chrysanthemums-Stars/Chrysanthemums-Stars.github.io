@@ -20,13 +20,13 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
+| Widget           |   Basic building block of a Flutter app. Everything is a widget                                               |   Text, Image, Container, Column                                        |
+| MaterialApp      |  The root of the app. Sets up routes and themes                                                |   Found in main.dart                                        |
+| Scaffold         |  Provides basic visual layout - like a header, body, and floating button                                                |     Each screen uses it                                      |
+| StatelessWidget  |  A widget that doesn't change                                                |      Most of the screen files                                     |
+| StatefulWidget   |  A widget that can change over time                                                |     Used in MyHomePage()                                      |
+| Navigator        |  Manages screen transitions                                              |   Navigator.pushNamed(context, '/page2');                                      |
+| AppBar           |   Top Navigation bar                                               |     Title of each page appears here                                      |
 | Column           |      Vertical Layout                                            |                                           |
 | Row              |     Horizontal Layout                                             |                                           |
 | Container        |      Wraps content with padding, margin, or color                                            |                                           |
