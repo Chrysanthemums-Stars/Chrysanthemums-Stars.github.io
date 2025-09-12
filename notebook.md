@@ -56,25 +56,25 @@
 
 |      | A named container used to store a value that may change. | `var x = 5;` | age/hair |  |
 
-| Constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+| Constant     | A fixed value that cannot change once set. | `const PI = 3.14;` | power |  |
 
-|      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
+|  Data Types    | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
 
-|      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
+|   String   | A sequence of characters used to represent words or text. | `"Hello World"` | Navigational text |  |
 
-|      | Whole number values. | `int age = 16;` |  |  |
+|   Integer   | Whole number values. | `int age = 16;` |  | Fitness App |
 
-|      | Number values with decimals. | `double age = 16.2;` |  |  |
+|   Double   | Number values with decimals. | `double age = 16.2;` | Calculator | Games |
 
-|      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
+|   Boolean   | A value that can be true or false. | `bool isLoggedIn = false;` | Human Confirmation | Whether you can like a video or not |
 
-|      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
+|   List   | A collection of values in a specific order. | `List<String> names = [];` | Groceries |  |
 
-|      | A special value that means “nothing.” | `String? name = null;` |  |  |
+|  Null    | A special value that means “nothing.” | `String? name = null;` | Being born | Searchbar |
 
-|      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+|   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
 
-|      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
+|   Parameter   | The information passed into a function to change how it works. | `greet(String name)` | Light switch | Jump |
 
 |      | The result a function gives back. | `return total;` |  |  |
 
