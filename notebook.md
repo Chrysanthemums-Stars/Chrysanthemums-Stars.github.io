@@ -1,10 +1,11 @@
-# My Coding Notebook
+                                                               # My Coding Notebook
 
 ## Table of Contents
-- [Flutter Notes](#flutter-notes)
+- [Flutter Notes](#day-1)
   - [What Is Flutter?](#what-is-flutter)
   - [Practice](#practice)
 - [Key Terms and Definitions](#key-terms-and-definitions)
+- [Code Definitions](#code-definitions)
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 
 
