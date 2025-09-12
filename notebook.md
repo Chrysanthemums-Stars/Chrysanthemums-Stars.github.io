@@ -37,6 +37,11 @@
 
 | Center      |   Centers its child                 |                     |
 
+
+---
+
+##  Code Definitions
+
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 
 |------|------------|--------------------------|-------------------|-------------|
