@@ -72,11 +72,11 @@
 
 |  Null    | A special value that means “nothing.” | `String? name = null;` | Being born | Searchbar |
 
-|   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
+|   Function   | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` | Light switch | Jump |
 
-|   Parameter   | The information passed into a function to change how it works. | `greet(String name)` | Light switch | Jump |
+|   Parameter   | The information passed into a function to change how it works. | `greet(String name)` |  |  |
 
-|      | The result a function gives back. | `return total;` |  |  |
+|  Return    | The result a function gives back. | `return total;` | Adding money to your account and getting a reciept back |  |
 
 |      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
 
