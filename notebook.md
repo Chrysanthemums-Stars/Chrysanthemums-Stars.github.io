@@ -41,15 +41,22 @@
 
 ---
 
+
+
+### Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
+
 ##  Code Definitions
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 
 |------|------------|--------------------------|-------------------|-------------|
 
-|      | A named container used to store a value that may change. | `var x = 5;` |  |  |
+|      | A named container used to store a value that may change. | `var x = 5;` | age/hair |  |
 
-|      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+| Constant     | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
 
 |      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
 
@@ -91,13 +98,6 @@
 
 
 ---
-
-### Layout and Design Widgets
-- How do you center a widget?
-- How do you align something to the left or right?
-- What widget adds space around content?
-
-
 
 
 ## Markdown Style Guide for Coding Notebooks
