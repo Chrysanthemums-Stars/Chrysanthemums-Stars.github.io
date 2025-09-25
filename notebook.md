@@ -83,7 +83,7 @@
 | MaterialApp    | The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |  | return MaterialApp( debugShowCheckedModeBanner: false, title: 'TSA Portfolio',   theme: ThemeData( |
 | Scaffold    | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  | return Scaffold( body: Center( |
 | Column    | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  | Column( mainAxisAlignment: MainAxisAlignment.center, |
-| Row   | A widget that shows things side-by-side. | `Row(...)` |  |  |
+| Row   | A widget that shows things side-by-side. | `Row(...)` |  | Row( children: [ ClipRRect( |
 | Container    | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  Container( width: 200, height: 200, |
 | Text     | A widget to display text on the screen. | `Text('Hello')` |  | Text( 'HI EVERYONE,\nWelcome to my TSA App', |
 | Image.network    | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  | Image.network( |
