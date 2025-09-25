@@ -50,7 +50,7 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|      | A named container used to store a value that may change. | `var x = 5;` | Score | main.dart title: 'TSA Portfolio', |
+|   Variable   | A named container used to store a value that may change. | `var x = 5;` | Score | main.dart title: 'TSA Portfolio', |
 | Constant     | A fixed value that cannot change once set. | `const PI = 3.14;` | power |  const MyPortfolioApp({super.key}); |
 |  Data Types    | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
 |   String   | A sequence of characters used to represent words or text. | `"Hello World"` | Navigational text |  |
@@ -94,13 +94,13 @@
 |   | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  | |
 | Padding   | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  padding: const EdgeInsets.only(left: 100.0), |
 | Center   | Aligns content in the center of the screen or container. | `Center(child: ...)` |  | Center( child: Column( |
-| Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
-| @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-| BuildContext     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
-| build() (in list twice) | Required in every widget class to describe what to show. | `build` |  |  |
-| super.key    | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
-| const     | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
-|      | A keyword that means the value won't change and is set once. | `const` |  |  |
+| Wrap     | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  | Wrap(alignment: WrapAlignment.center, |
+| @override     | This marks a method as one that’s replacing a method in a parent class. | `@override` |  | @override Widget build(BuildContext  |
+| BuildContext     | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  | (BuildContext context) { final List<String> puppyUrls = [ |
+| build() (in list twice) | Required in every widget class to describe what to show. | `build` |  | build(BuildContext |
+|     | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+| super.key  | A keyword used to pass a value to the parent widget. | `super.key` |  | super.key, required this.imageUrl, |
+|  Const  | A keyword that means the value won't change and is set once. | `const` |  | const Text( 'Research App Template', |
 
 
 ## Markdown Style Guide for Coding Notebooks
