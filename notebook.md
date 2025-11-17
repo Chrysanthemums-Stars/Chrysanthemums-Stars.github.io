@@ -106,6 +106,18 @@
 |  Const  | A keyword that means the value won't change and is set once. | `const` |  | const Text( 'Research App Template', |
 
 
+
+[String notes](#string-notes)
+### String Notes
+- Strings have indices (plural for index) which start at 0. "Hello" has indices 0(H), 1(e), 2(1), 3(1), 4(0).
+
+ [String Methods Table](#string-methods-table)
+ ### String Methods Table
+
+<img width="1213" height="403" alt="image" src="https://github.com/user-attachments/assets/5bb728d9-40d4-47ba-9d3f-a75b22b1580e" />
+
+ 
+
 ## Markdown Style Guide for Coding Notebooks
 
 Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
